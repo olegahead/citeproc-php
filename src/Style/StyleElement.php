@@ -71,8 +71,9 @@ abstract class StyleElement
                  * which they are cited.
                  */
                 case 'sort':
-                    $sorting = new Sort($child);
-                    CiteProc::getContext()->setSorting($sorting);
+                    // Nedd to disable sorting
+                    // $sorting = new Sort($child);
+                    // CiteProc::getContext()->setSorting($sorting);
             }
         }
     }
